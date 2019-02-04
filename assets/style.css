@@ -1,0 +1,39 @@
+html, body {
+     margin: 0;
+     text-align: center;
+   }
+   body {
+     background-image: url('../assets/img/roughcloth.png') !important;
+     color: black;
+   }
+   .jumbotron{
+     background-color: #4bafc6 !important;
+     color: white;
+     border-bottom: 30px solid #070707;
+   }
+   .controls {
+     text-align: center;
+     border: 5px solid black;
+     border-radius: 30%;
+     padding: 20px;
+     margin: 15px auto;
+   }
+   .controls{
+     background: white;
+   }
+   canvas {
+     width: 850px;
+     height: 850px;;
+     margin: 15px auto;
+     background:white;
+     border: 5px solid black; 
+     border-radius: 15%
+   }
+
+   footer {
+     width: 100%;
+     background-color: #4bafc6 !important;
+     height:150px;
+     font-size: 15px; 
+     border-top: 30px solid #070707;
+   }
